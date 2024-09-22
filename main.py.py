@@ -37,6 +37,7 @@ print(pathImages)
 imgList = [cv2.resize(cv2.imread(os.path.join(folderPath, img)), (width, height)) for img in pathImages]
 
 while True:
+    
     # Get image frame
     success, img = cap.read()
     if not success:
