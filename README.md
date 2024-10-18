@@ -1,1 +1,0 @@
-# Hand-Gestures-Based-Activities-for-Digital-Interaction
