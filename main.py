@@ -22,7 +22,7 @@ last_activation = {
 }
 
 # Cooldown time in seconds
-COOLDOWN = 0.8  # Adjust as needed
+COOLDOWN = 1.0  # delay
 
 def detect_gestures(fingers, landmarks, frame):
     current_time = time.time()
@@ -38,8 +38,6 @@ def detect_gestures(fingers, landmarks, frame):
         # print(w ,h)
         # print(x ,y)
         # print(xVal,yVal)
-        
-
         pyautogui.moveTo(xVal, yVal)
 
     # mouse right click
